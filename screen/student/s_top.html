@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s_top</title>
+</head>
+<body>
+
+    (出席番号)さんログイン中<br>
+
+    <br><br>
+
+    <h3>トップページ</h3>
+    <br>
+    
+    (緊急のメッセージ)<br>
+    <br>
+    本日の体温と健康状態を入力してください<br>
+    <br>
+    体温<br>
+    <input type="text">
+    <br><br>
+    咳<br>
+    <input type="checkbox">あり  <input type="checkbox">なし
+    <br>
+    喉の痛み<br>
+    <input type="checkbox">あり  <input type="checkbox">なし
+    <br>
+    倦怠感<br>
+    <input type="checkbox">あり  <input type="checkbox">なし
+    <br>
+    備考<br>
+    <textarea rows="4" cols="40"></textarea><br>
+    <br><br>
+    <a href="s_input_check.html">送信(ボタン)</a>
+    <br><br>
+
+
+    <br><br><br>
+    <説明><br>
+    生徒のトップページです。(本日の健康チェックがまだの場合)<br>
+    
+    <br><br>
+
+    POSTでs_input_checkへ入力データを送る。<br>
+    体温：body_temperature、咳：cough、喉の痛み：sore_throat、倦怠感：fatigue、備考：note
+
+    
+</body>
+</html>
